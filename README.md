@@ -7,6 +7,7 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+![Version][Repo-tag]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -60,20 +61,20 @@
 <!-- ABOUT THE RESUME -->
 ## The Resume
 
-[Resume Screen Shot](resume-screenshot)
+[![Resume Screen Shot][Resume-screenshot]][Resume-url]
 
-<!-- TODO: ADD DESCRIPTION -->
+<!-- TODO: ADD DESCRIPTION AND SCREENSHOT -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Frameworks/Libraries
+### Built With
 
 <!-- TODO: ADD FRAMEWORKS/LIBRARIES -->
 <!-- TODO: ADD DOCKER LOGO -->
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Docker][Docker.com]][Docker-url]
+* [![Docker][Docker]][Docker-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,6 +91,19 @@
 ### Installation
 
 <!-- TODO: ADD INSTALLATION INSTRUCTIONS -->
+
+#### Docker Deploy
+
+To deploy this website for local development, just run:
+
+```bash
+docker build -t cv-website .
+
+docker run -p 80:3000 cv-website
+```
+
+To open this website, go to your browser and type in `localhost`.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,26 +160,30 @@ Use this space to list resources you find helpful and would like to give credit 
 * [Img Shields](https://shields.io)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 * [Best README Template](https://friendysystems.com)
+* [Next.js Example with docker](https://github.com/vercel/next.js/blob/canary/examples/with-docker)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/friendywill/friendlycv/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/friendywill/friendlycv/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/friendywill/friendlycv/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/friendywill/friendlycv/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/friendywill/friendlycv/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/friendywill/cv.svg?style=for-the-badge
+[contributors-url]: https://github.com/friendywill/cv/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/friendywill/cv.svg?style=for-the-badge
+[forks-url]: https://github.com/friendywill/cv/network/members
+[stars-shield]: https://img.shields.io/github/stars/friendywill/cv.svg?style=for-the-badge
+[stars-url]: https://github.com/friendywill/cv/stargazers
+[issues-shield]: https://img.shields.io/github/issues/friendywill/cv.svg?style=for-the-badge
+[issues-url]: https://github.com/friendywill/cv/issues
+[license-shield]: https://img.shields.io/github/license/friendywill/cv.svg?style=for-the-badge
+[license-url]: https://github.com/friendywill/cv/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/william-friend/
-[resume-screenshot]: images/screenshot.png
+[linkedin-url]: https://linkedin.com/in/william-friend
+[Resume-screenshot]: images/screenshot.png
+[Resume-url]: https://friendysystems.com
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
+[Docker]: https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white
+[Docker-url]: https://docker.com/
  <!-- TODO: ADD IMAGE -->
