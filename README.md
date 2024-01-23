@@ -178,6 +178,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/friendywill/cv/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/william-friend
+[Repo-tag]: https://img.shields.io/github/v/tag/friendywill/cv.svg?style=for-the-badge
 [Resume-screenshot]: images/screenshot.png
 [Resume-url]: https://friendysystems.com
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
