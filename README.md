@@ -94,7 +94,7 @@
 
 #### Docker Deploy
 
-To deploy this website for local development, just run:
+To deploy this website for a quick deployment.
 
 ```bash
 docker build -t cv-website .
@@ -111,7 +111,33 @@ To open this website, go to your browser and type in `localhost`.
 ## Roadmap
 
 * [x] Start README
-* [ ] Build Website
+* [ ] Finish Layout
+* [ ] Style Globally
+* [ ] Structure about page
+* [ ] Add information and description to about page
+* [ ] Style about page
+* [ ] Structure contact page
+* [ ] Add information and description to contact page
+* [ ] Style contact page
+* [ ] Structure cover letter page
+* [ ] Add information and description to cover letter page
+* [ ] Style cover letter page
+* [ ] Structure portfolio page
+* [ ] Add information and description to portfolio page
+* [ ] Style portfolio page
+* [ ] Structure coding page
+* [ ] Add information and description to coding page
+* [ ] Style coding page
+* [ ] Structure devops page
+* [ ] Add information and description to devops page
+* [ ] Style devops page
+* [ ] Structure sysadmin page
+* [ ] Add information and description to sysadmin page
+* [ ] Style sysadmin page
+* [ ] Structure resume page
+* [ ] Add information and description to resume page
+* [ ] Style resume page
+* [ ] Style Globally
 * [ ] Finish README
 * [ ] Deploy Website
 
@@ -178,6 +204,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/friendywill/cv/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/william-friend
+[Repo-tag]: https://img.shields.io/github/v/tag/friendywill/cv.svg?style=for-the-badge
 [Resume-screenshot]: images/screenshot.png
 [Resume-url]: https://friendysystems.com
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
